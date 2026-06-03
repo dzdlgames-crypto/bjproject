@@ -1,6 +1,6 @@
 {
  "message": "ok",
- "needUpgread":"false",
+ "needUpgread":{"false",""},
  "showNotice":{"202606032105",""},
  "checkVpn":"false",
  "checkLg":"false"
