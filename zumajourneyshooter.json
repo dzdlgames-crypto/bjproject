@@ -1,6 +1,6 @@
 {
   "message": "ok",
-  "needUpgread": ["true", "https://play.google.com/store/apps/details?id=com.dlvaxx.zuma.journey.shooter&pcampaignid=web_share"],
+  "needUpgread": ["false", "https://play.google.com/store/apps/details?id=com.dlvaxx.zuma.journey.shooter&pcampaignid=web_share"],
   "showNotice": ["202606060958", ""],
   "checkVpn": false,
   "checkLg": false
