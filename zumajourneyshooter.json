@@ -1,7 +1,7 @@
 {
   "message": "ok",
   "needUpgread": ["false", ""],
-  "showNotice": ["202606032105", ""],
+  "showNotice": ["202606060943", "这是一个公告"],
   "checkVpn": false,
   "checkLg": false
 }
