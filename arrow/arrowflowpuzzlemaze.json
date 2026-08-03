@@ -1,4 +1,5 @@
 {
+  "gateway":"true",
   "message": "ok",
   "ver": "1.0.15",
   "clickAdValue": "3",
