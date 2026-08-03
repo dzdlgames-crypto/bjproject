@@ -1,5 +1,5 @@
 {
-  "gateway":"true",
+  "gateway":"false",
   "message": "ok",
   "ver": "1.0.15",
   "clickAdValue": "3",
