@@ -1,3 +1,56 @@
 {
-  "gateway":"true"
+  "gateway": "true",
+  "configVersion": 1,
+  "adConfig": {
+    "enabled": true,
+    "defaults": {
+      "midInterstitialEnabled": true,
+      "midInterstitialStartLevel": 1,
+      "midInterstitialMinIntervalSeconds": 0,
+      "bannerEnabled": false
+    },
+    "rules": [
+      {
+        "id": "example_pid_country_rule",
+        "enabled": false,
+        "priority": 100,
+        "match": {
+          "pids": [
+            "example_pid"
+          ],
+          "countries": [
+            "US"
+          ]
+        },
+        "values": {
+          "midInterstitialEnabled": true,
+          "midInterstitialStartLevel": 3,
+          "midInterstitialMinIntervalSeconds": 120,
+          "bannerEnabled": false
+        }
+      },
+      {
+        "id": "example_banner_pid_rule",
+        "enabled": false,
+        "priority": 90,
+        "match": {
+          "pids": [
+            "example_banner_pid"
+          ],
+          "countries": [
+            "*"
+          ]
+        },
+        "values": {
+          "bannerEnabled": true
+        }
+      }
+    ]
+  },
+  "difficultyConfig": {
+    "enabled": true,
+    "enemyHpMultiplier": 1,
+    "enemyAtkMultiplier": 1,
+    "spawnTimeMultiplier": 1
+  }
 }
