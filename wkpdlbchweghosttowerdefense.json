@@ -19,13 +19,17 @@
             "example_pid"
           ],
           "countries": [
-            "US"
+            "JP",
+            "ID",
+            "PH",
+            "TH",
+            "VN"
           ]
         },
         "values": {
           "midInterstitialEnabled": true,
-          "midInterstitialStartLevel": 3,
-          "midInterstitialMinIntervalSeconds": 120,
+          "midInterstitialStartLevel": 2,
+          "midInterstitialMinIntervalSeconds":45 ,
           "bannerEnabled": false
         }
       },
