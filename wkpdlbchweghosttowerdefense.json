@@ -4,20 +4,17 @@
   "adConfig": {
     "enabled": true,
     "defaults": {
-      "midInterstitialEnabled": true,
+      "midInterstitialEnabled": false,
       "midInterstitialStartLevel": 1,
-      "midInterstitialMinIntervalSeconds": 0,
+      "midInterstitialMinIntervalSeconds": 45,
       "bannerEnabled": false
     },
     "rules": [
       {
-        "id": "example_pid_country_rule",
-        "enabled": false,
+        "id": "target_countries_mid_interstitial",
+        "enabled": true,
         "priority": 100,
         "match": {
-          "pids": [
-            "example_pid"
-          ],
           "countries": [
             "JP",
             "ID",
@@ -28,25 +25,8 @@
         },
         "values": {
           "midInterstitialEnabled": true,
-          "midInterstitialStartLevel": 2,
-          "midInterstitialMinIntervalSeconds":45 ,
-          "bannerEnabled": false
-        }
-      },
-      {
-        "id": "example_banner_pid_rule",
-        "enabled": false,
-        "priority": 90,
-        "match": {
-          "pids": [
-            "example_banner_pid"
-          ],
-          "countries": [
-            "*"
-          ]
-        },
-        "values": {
-          "bannerEnabled": true
+          "midInterstitialStartLevel": 1,
+          "midInterstitialMinIntervalSeconds": 45
         }
       }
     ]
