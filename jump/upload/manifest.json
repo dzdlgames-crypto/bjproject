@@ -1,4 +1,5 @@
 {
+  "gateway":true,
   "schemaVersion": 1,
   "gameId": "crazy-road",
   "configVersion": 1,
